@@ -1,0 +1,60 @@
+@CHARSET "UTF-8";
+
+input[type=text] {
+	width : 250px;
+	height : 20px;
+    padding: 10px 10px 10px 10px;
+    margin: 8px 0;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    font-size:12pt;
+}
+
+tr {
+	/* height: 80px;	 */
+	font-size:15pt;
+}
+
+label {
+	margin: 0px 10px 0px 10px;	
+}
+
+.text  {
+	width: 150px;
+}
+
+input[type=submit] {
+	width : 270px;
+	height : 45px;
+    padding: 8px 8px 8px 8px;
+    margin: 20px 0px 0px 0px;
+    border: 1px;
+    border-radius: 4px;
+    font-size:15pt;
+    color: #ffffff;
+    background-color: #ED1C24;
+}
+
+input[type=button] {
+	width : 75px;
+	height : 35px;
+    padding: 3px 3px 3px 3px;
+    margin: 0px 0px 0px 10px;
+    border: 1px;
+    border-radius: 4px;
+    font-size:10pt;
+    color: #808080;
+    background-color: #EFEBDB;
+}
+
+.main-content a {
+	/* position:relative;
+	top: 30px; */
+	font-size: 17pt;
+	font-weight: bold;
+}
+
+/* form {
+	position:relative;
+	top: 60px;
+}  */

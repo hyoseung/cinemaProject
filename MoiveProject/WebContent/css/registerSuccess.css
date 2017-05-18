@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+
+input[type=button] {
+	width : 270px;
+	height : 45px;
+    padding: 8px 8px 8px 8px;
+    margin: 20px 0px 0px 0px;
+    border: 1px;
+    border-radius: 4px;
+    font-size:15pt;
+    color: #ffffff;
+    background-color: #ED1C24;
+}
+
+table {
+	border: 2px solid #EFEBDB;
+	margin-top: 20px;
+}
+
+tr {
+	height: 80px;
+	font-size:15pt;
+	border: 1px solid #EFEBDB;
+}
+
+td {
+	width: 250px;
+	text-align: center;
+	border: 1px solid #EFEBDB;
+}
+
+.text  {
+	text-align: center;
+	width: 150px;
+	background-color: #EFEBDB;
+}
+
+.main-content a {
+	/* position:relative;
+	top: 30px; */
+	font-size: 17pt;
+	font-weight: bold;
+}

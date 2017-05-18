@@ -1,0 +1,71 @@
+@CHARSET "UTF-8";
+
+input[type=button] {
+	width : 40px;
+	height : 30px;
+    padding: 0px 8px 0px 8px;
+    border: 1px;
+    border-radius: 4px;
+    font-size:10pt;
+    color: #ffffff;
+    background-color: #ED1C24;
+}
+
+#title {
+	font-size : 25pt;
+	color : #33373A;
+	font-weight: bolder;
+}
+
+.listTable {
+	margin-top : 30px;
+	text-align : center;
+	border-collapse:collapse;
+}
+
+.list_title {
+	font-size : 14pt;
+	height : 45px;
+	background-color : #33373A;
+	color : #CDC197;
+	font-weight: bolder;
+	 
+}
+
+#list1, #list5, #list8 {
+	width : 85px;
+	padding : 0px 5px 0px 5px;
+}
+
+#list2 {
+	width : 200px;
+	padding : 0px 5px 0px 5px;
+}
+
+#list3 {
+	width : 150px;
+	padding : 0px 5px 0px 5px;
+}
+
+#list4 {
+	width : 160px;
+	padding : 0px 5px 0px 5px;
+}
+
+#list6 {
+	width : 250px;
+	padding : 0px 5px 0px 5px;
+}
+
+#list7 {
+	width : 100px;
+	padding : 0px 5px 0px 5px;
+}
+
+.list_content {
+	height : 45px;
+	font-size : 13pt;
+	border-bottom: 1px solid #33373A;
+	color : #33373A;
+}
+

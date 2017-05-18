@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+
+input[type="radio"]{
+    display:inline-block;
+    width:20px;
+    height:20px;
+    vertical-align:middle;
+    background:url('http://localhost/movieProject/img/radio_p.png') no-repeat 0 0;
+    appearance: none;
+    -moz-appearance: none; Firefox
+    -webkit-appearance: none; Safari and Chrome
+    border-radius:0;
+    border:0;
+}
+input[type="radio"] { 
+	background:url('http://localhost/movieProject/img//radio_n.png') no-repeat 0 0; 
+}
+input[type="radio"]:checked{
+    display:inline-block;
+    width:20px;
+    height:20px;
+    vertical-align:middle;
+    background:url('http://localhost/movieProject/img/radio_p.png') no-repeat 0 0;
+    appearance: none;
+    -moz-appearance: none; Firefox
+    -webkit-appearance: none; Safari and Chrome
+    border-radius:0;
+    border:0;
+}

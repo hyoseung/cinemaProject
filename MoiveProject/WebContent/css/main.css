@@ -1,0 +1,84 @@
+@CHARSET "UTF-8";
+
+body::-webkit-scrollbar {
+   margin: 0;
+   display:none;
+}
+
+
+.main-video {
+	width: 100%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.toggle-movie {
+	margin-top : 30px;
+	/* padding:20px; */
+	text-align:center;
+}
+
+#current-movie {
+	margin : 0px 15px 0px 15px;
+	cursor: pointer;
+}
+
+#next-movie {
+	margin : 0px 15px 0px 15px;
+	cursor: pointer;
+}
+
+.main-bottom{
+	border-top: 1px solid #33373A;/* #EFEBDB; */
+	align:bottom;
+	font-size:15px;
+	text-align: center;
+	padding-top:10px;
+	color : #848484;
+
+}
+
+.main-movieList{
+	margin-top:20px;
+}
+
+#poster{
+	width:400px; 
+	height:573px;
+	margin : 0px 25px 0px 25px;
+}
+
+#rate img{
+	width:50px;
+	height:40px;
+}
+#title{
+	font-size:30px;
+}
+
+.main-viewlist{
+	padding : 20px 0px 100px 0px;
+}
+
+#movieList_table td {
+	width : 450px;
+	text-align : left;
+	padding : 25px 30px 25px 30px;
+}
+
+#age_title {
+	margin : 5px 25px 5px 25px;
+}
+
+#btn_title {
+	margin : 0px 25px 0px 25px;
+}
+
+.detail-movie{
+	cursor: pointer;
+}
+
+.reserve-movie{
+	cursor: pointer;
+}

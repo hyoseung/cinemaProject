@@ -1,0 +1,166 @@
+@CHARSET "UTF-8";
+
+#select_seat_info {
+	width: 850px;
+	/* height: 200px; */
+	height: 530px;
+	margin-top: 30px;
+	border-color : #33373A;
+}
+
+#select_seat_info legend {
+	font-size: 18pt;
+	color : #CDC197;
+}
+
+#select_seat_info label {
+	font-size : 13pt;
+	color : #33373A;
+}
+
+#select_seat_info div {
+	margin : 10px 0px 0px 0px;
+} 
+
+#select_seat_info span {
+	margin : 0px 15px 0px 15px;
+}
+
+#select_seat_info input {
+	width : 35px;
+	height : 30px;
+	font-size : 13pt;
+	padding : 3px 5px 3px 5px;
+}
+
+
+#selct_seat {
+	margin-top: 25px;	
+}
+
+.seat_td{
+	width: 45px;
+	height: 45px;
+	font-size: 12pt;
+	text-align: center;
+	background-color: #EFEBDB;
+	padding : 5px 5px 5px 5px;
+	color : #33373A;
+}
+
+.seat_td:hover{
+	background-color: #F5DD7F;
+}
+
+#screen {
+	background-color: #EFEBDB;
+	color: #808080;
+	text-align: center;
+	height: 45px;	
+}
+
+input[type=button] {
+	width : 200px;
+	height : 45px;
+    padding: 8px 8px 8px 8px;
+    margin: 40px 50px 0px 50px;
+    border: 1px;
+    border-radius: 4px;
+    font-size:15pt;
+    color: #ffffff;
+    background-color: #ED1C24;
+}
+
+input[type=submit] {
+	width : 200px;
+	height : 45px;
+    padding: 8px 8px 8px 8px;
+    margin: 40px 50px 0px 50px;
+    border: 1px;
+    border-radius: 4px;
+    font-size:15pt;
+    color: #ffffff;
+    background-color: #ED1C24;
+}
+
+#select_info_table {
+	margin : 10px 0px 0px 0px;	
+	height : 100px;
+	background-color: #33373A;
+}
+
+.select_info_title td{
+	font-size : 15pt;	
+	text-align : center;
+	color : #CDC197;
+}
+
+.select_info_title #one{
+	width : 230px;
+	height : 23px;
+}
+
+.select_info_title #two{
+	width : 230px;
+}
+
+.select_info_title #three{
+	width : 150px;
+}
+
+.select_info_title #four{
+	width : 80px;
+}
+
+.select_info_title #five{
+	width : 250px;
+}
+
+.select_info_content td{
+	text-align : center;
+	height : 30px;
+	padding : 3px 0px 3px 0px;
+	color : #ffffff;
+}
+
+
+
+/*
+* checkbox
+*/
+input[type=checkbox] {
+	display:none;
+}
+
+input[type=checkbox] + label {
+	display: inline-block;
+	cursor: pointer;
+}
+
+
+/* input[type=checkbox] + label: before {
+	content: "";  
+    display: inline-block;  
+  
+    width: 20px;  
+    height: 20px;  
+  
+    margin-right: 10px;  
+    position: absolute;  
+    left: 0;  
+    bottom: 1px;  
+    background-color: #ccc;  
+    border-radius: 2px; 
+    box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, .3), 0px 1px 0px 0px rgba(255, 255, 255, .8);
+}
+
+input[type=checkbox]:checked + label: before {
+	    content: "\2713"; 
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);  
+    font-size: 18px; 
+    font-weight:800; 
+    color: #fff;  
+    background:#2f87c1;
+    text-align: center;  
+    line-height: 18px;
+} */
